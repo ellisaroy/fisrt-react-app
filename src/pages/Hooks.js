@@ -1,5 +1,4 @@
 import { useState,useEffect,createContext,useContext, useReducer,useRef } from 'react';
-import axios from 'axios';
 const Hooks = () =>{
     const [inputValue,setinputValue] = useState("Testing");   
     const valueChange = (event) => {
@@ -9,11 +8,9 @@ const Hooks = () =>{
     const[counter,setCounter] = useState(0);
     const increment = () =>{
         setCounter(counter+1);
-       // console.log(counter)
    };
    // reducer
    const reducer = (state,action) => {
-   // console.log(action.type);
         switch(action.type){
             case "Increment":
                 return {count: state.count+1,showText: state.showText}
