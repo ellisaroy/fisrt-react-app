@@ -2,6 +2,7 @@ import { useState,useEffect,createContext,useContext, useReducer,useRef } from '
 const Hooks = () =>{
     const [inputValue,setinputValue] = useState("Testing");   
     const valueChange = (event) => {
+        console.log(event);
         const newValue = event.target.value;
         setinputValue(newValue);
    };
