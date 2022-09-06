@@ -1,4 +1,3 @@
-
 import './App.css';
 import 'antd/dist/antd.css';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
@@ -10,7 +9,7 @@ function App() {
    <>
      <Router>
       <div>
-        <nav>
+        <nav>   
           <ul>
           <li>
               <Link to="/">Home</Link>
