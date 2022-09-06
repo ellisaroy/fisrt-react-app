@@ -6,7 +6,7 @@ const Header = () => {
     <>
       <nav>   
           <ul>
-          <li>
+            <li>
               <Link to="/">Home</Link>
             </li>
             <li>
@@ -17,6 +17,9 @@ const Header = () => {
             </li>
             <li>
               <Link to="/hooks">Hooks</Link>
+            </li>
+            <li>
+              <Link to="/methods">Array Methods</Link>
             </li>
           </ul>
         </nav>
