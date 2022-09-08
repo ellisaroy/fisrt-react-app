@@ -7,9 +7,10 @@ const Methods = () =>{
         const newCal = cal.filter((cal)=>cal >= 6);
     const check = [4,3,2,78,90,10];
         const checkNumber = check.includes(10);
-        console.log(checkNumber);
+        //console.log(checkNumber);
     const findNum = [12,56,21,32,45];
         const findNumber = findNum.find((number)=> number >=  21);
+        console.log(findNumber);
     return(
         <>
             <h1>Example of array methods</h1>

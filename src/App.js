@@ -7,6 +7,7 @@ import Search from './components/Search';
 import About from './pages/About';
 import Methods from './pages/Methods';
 import Hooks from './pages/Hooks';
+import Calculator from './components/Calculator';
 function App() {
   return (
    <>
@@ -19,6 +20,7 @@ function App() {
           <Route path="/about" element={<About/>}/>
           <Route path="/methods" element={<Methods/>} />
           <Route path="/hooks" element={<Hooks/>} />
+          <Route path="/calculator" element={<Calculator/>} />
         </Routes>
       </div>
     </Router>
