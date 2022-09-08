@@ -22,7 +22,7 @@ const Header = () => {
               <Link to="/methods">Array Methods</Link>
             </li>
             <li>
-              <Link to="/calulator">Calulator</Link>
+              <Link to="/calculator">Calulator</Link>
             </li>
           </ul>
         </nav>

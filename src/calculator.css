@@ -1,0 +1,28 @@
+.calculator-grid{
+    display: grid;
+    margin-top: 2rem;
+    grid-template-columns: repeat(4,6rem);
+    grid-template-rows: minmax(7rem,auto) repeat(5,6rem);
+}
+.calculator-grid > button{
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid #fff;
+    outline: none;
+    background-color: crimson;
+}
+.span-two{
+    grid-column: span 2;
+}
+.output{
+    background-color: black;
+    color: #fff;
+}
+.output .previous-operand{
+    color: #fff;
+    font-size: 1.5rem;
+}
+.output .current-operand{
+    color: #fff;
+    font-size: 2rem;
+}

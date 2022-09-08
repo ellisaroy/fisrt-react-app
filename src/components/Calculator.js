@@ -1,12 +1,14 @@
-import React from 'react';
-import "../calculator.css"
+import React from "react";
+import "../Calculator.css";
 const Calculator = () => {
     return(
         <>
             <div className='calculator-grid'>
                 <div className='output'>
-                    <div class="previous-operand"></div>
-                    <div className='current-operand'></div>
+                    <div className="previous-operand"><p>1565*23 </p></div>
+                    <div className='current-operand'>1213</div>
+                </div>
+                    
                     <button className='span-two'>AC</button>
                     <button>DEL</button>
                     <button>/</button>
@@ -26,7 +28,6 @@ const Calculator = () => {
                     <button>0</button>
                     <button className='span-two'>=</button>
                 </div>
-            </div>
         </>
     );
 };
