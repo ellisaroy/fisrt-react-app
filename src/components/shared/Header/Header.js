@@ -35,7 +35,7 @@ const Header = (props) => {
   );
 };
 
-Header.prototypes ={
+Header.propTypes ={
   title:PropTypes.string.isRequired,
   aboutText:PropTypes.string
 }
