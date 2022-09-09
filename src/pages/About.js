@@ -2,6 +2,8 @@ import React from 'react';
 import { useState,useEffect,createContext,useContext  } from 'react';
 import ReactDOM from "react-dom/client";
 const About = (props) =>{
+    const greet = "Anita";
+    const who ="developer";
     // const UserContext = createContext();
     // const root = ReactDOM.createRoot(document.getElementById('root'));
     // root.render(<Component1 />);

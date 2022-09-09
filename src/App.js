@@ -8,6 +8,7 @@ import About from './pages/About';
 import Methods from './pages/Methods';
 import Hooks from './pages/Hooks';
 import Calculator from './components/Calculator';
+import Learning from './pages/Learning';
 function App() {
   return (
    <>
@@ -21,6 +22,7 @@ function App() {
           <Route path="/methods" element={<Methods/>} />
           <Route path="/hooks" element={<Hooks/>} />
           <Route path="/calculator" element={<Calculator/>} />
+          <Route path="/learning" element={<Learning/>} />
         </Routes>
       </div>
     </Router>
