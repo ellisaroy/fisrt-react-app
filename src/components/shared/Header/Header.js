@@ -29,6 +29,9 @@ const Header = (props) => {
             <li>
               <Link to="/learning">Learning</Link>
             </li>
+            <li>
+              <Link to="/textForm">TextForm</Link>
+            </li>
           </ul>
         </nav>
     </>
