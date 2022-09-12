@@ -1,6 +1,6 @@
 import './App.css';
 import 'antd/dist/antd.css';
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import Routing from './components/Routes';
 import Header from './components/shared/Header/Header';
 function App() {
@@ -15,5 +15,4 @@ function App() {
    </>
   );
 }
-
 export default App;
