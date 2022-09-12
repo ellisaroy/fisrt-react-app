@@ -14,7 +14,7 @@ const Button = () =>{
             <div className='current-operand'>1213</div>
         </div>
             <button name="AC" onClick={handleChange} className='span-two'>AC</button>
-            <button name="DEL"onClick={handleChange}>DEL</button>
+            <button name="DEL" onClick={handleChange}>DEL</button>
             <button name="/" onClick={handleChange}>/</button>
             <button name="1" onClick={handleChange}>1</button>
             <button name="2" onClick={handleChange}>2</button>
