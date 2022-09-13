@@ -22,7 +22,7 @@ const Calculator = () => {
   return (
     <>
       <div className="calculator-grid">
-        <input type="text" className="output" value= { buttonText} />
+        <input type="text" className="output" value= { buttonText} style={{ fontSize:"35px" }} />
         <button name="AC/DEL" value="AC/DEL" onClick={() => backspace()} className="span-two">
         AC
       </button>
