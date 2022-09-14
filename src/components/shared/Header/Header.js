@@ -32,6 +32,9 @@ const Header = (props) => {
             <li>
               <Link to="/textForm">TextForm</Link>
             </li>
+            <li>
+              <Link to="/postdata">PostData</Link>
+            </li>
           </ul>
         </nav>
     </>

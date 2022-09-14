@@ -8,6 +8,7 @@ import Hooks from "../pages/Hooks";
 import Calculator from "../components/Calculator";
 import Learning from "../pages/Learning";
 import TextForm from "../components/TextForm";
+import PostData from "./Postdata.";
 const Routing = () => {
   return (
     <>
@@ -19,6 +20,7 @@ const Routing = () => {
         <Route path="/hooks" element={<Hooks />} />
         <Route path="/calculator" element={<Calculator />} />
         <Route path="/learning" element={<Learning />} />
+        <Route path="/postdata" element={<PostData/>} / >
         <Route
           path="/textform"
           element={<TextForm title="Enter the text to analyze" />}
