@@ -35,6 +35,9 @@ const Header = (props) => {
             <li>
               <Link to="/postdata">PostData</Link>
             </li>
+            <li>
+              <Link to="/getpost">GetPost</Link>
+            </li>
           </ul>
         </nav>
     </>

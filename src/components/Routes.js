@@ -9,6 +9,7 @@ import Calculator from "../components/Calculator";
 import Learning from "../pages/Learning";
 import TextForm from "../components/TextForm";
 import PostData from "./Postdata.";
+import GetPost from "./GetPost";
 const Routing = () => {
   return (
     <>
@@ -21,6 +22,7 @@ const Routing = () => {
         <Route path="/calculator" element={<Calculator />} />
         <Route path="/learning" element={<Learning />} />
         <Route path="/postdata" element={<PostData/>} / >
+        <Route path="/getpost" element={<GetPost/>} / >
         <Route
           path="/textform"
           element={<TextForm title="Enter the text to analyze" />}

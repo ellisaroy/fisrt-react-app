@@ -1,25 +1,35 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
-const PostData = () => {
+
+const GetPost = () => {
   const baseURL = "https://jsonplaceholder.typicode.com/posts";
   const [posts, setPost] = useState();
+  const [post, getPost] = useState();
   useEffect(() => {
     axios.get(baseURL).then((response) => {
      setPost(response.data);
     });
   }, []);
-  
+  const createPost = () => {
+    axios
+      .post(baseURL, {
+        title: "Hello World!",
+        body: "This is a new post.",
+      })
+      .then((response) => {
+        getPost(response.data);
+        console.log(response.data);
+      });
+  };
+
   return (
     <>
-      <div className="postdata-wrapper">
-        <ul>
-          {posts &&
+       {posts &&
             posts.length > 0 &&
             posts.map((post) => <li key={post.id}>{post.title} </li>)}
-        </ul>
-      </div>
+      <button onClick={createPost}>Create Post</button>
     </>
   );
 };
 
-export default PostData;
+export default GetPost;
