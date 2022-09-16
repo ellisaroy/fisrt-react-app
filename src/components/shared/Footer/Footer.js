@@ -1,6 +1,7 @@
 import { Menu, Switch } from 'antd';
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
+const Footer = () => {
 const footerStyle = {
     background:'grey',
     padding:'20px'
@@ -26,11 +27,13 @@ function tick(){
     root.render(date);
 }
 //setInterval(tick,4000);
-const Footer = () => {
+
     return(
         <>
             <footer className='custom-footer' style={footerStyle}>
-                <p style={paragraph}>This is the footer</p>
+                <p style={paragraph}>This is just a footer</p>
+                <p style={paragraph} onClick={tick}>To tick</p>
+           
             </footer>
         </>
     );

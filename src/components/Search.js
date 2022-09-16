@@ -9,7 +9,7 @@ const Search=() =>{
             type="text" 
             placeholder="Search anything......" 
             onChange={(event)=>{
-              //  console.log(event);
+             // console.log(event);
                 setSearchTerm(event.target.value);
             }}
         />

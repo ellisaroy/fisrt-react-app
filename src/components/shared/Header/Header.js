@@ -1,7 +1,6 @@
-import { MailOutlined } from '@ant-design/icons';
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import PropTypes from 'prop-types';
-import React, { useState } from 'react';
+import React from 'react';
 const Header = (props) => {
   return (
     <>
@@ -37,6 +36,9 @@ const Header = (props) => {
             </li>
             <li>
               <Link to="/getpost">GetPost</Link>
+            </li>
+            <li>
+              <Link to="/signup">Signup</Link>
             </li>
           </ul>
         </nav>

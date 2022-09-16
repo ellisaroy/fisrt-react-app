@@ -22,8 +22,8 @@ const Calculator = () => {
   return (
     <>
       <div className="calculator-grid">
-        <input type="text" className="output" value= { buttonText} style={{ fontSize:"35px" }} />
-        <button name="AC/DEL" value="AC/DEL" onClick={() => backspace()} className="span-two">
+        <input type="text" className="output span-two" value= { buttonText} style={{ fontSize:"35px" }} />
+        <button name="AC/DEL" value="AC/DEL" onClick={() => backspace()}>
         AC
       </button>
       <button name="/" value="/" onClick={(e) =>setButtonText(buttonText + e.target.value)}>
