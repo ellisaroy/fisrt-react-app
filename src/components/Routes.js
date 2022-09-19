@@ -11,6 +11,7 @@ import TextForm from "../components/TextForm";
 import PostData from "./Postdata.";
 import GetPost from "./GetPost";
 import Signup from "./Signup";
+import Quiz from "./Quiz";
 const Routing = () => {
   return (
     <>
@@ -25,6 +26,7 @@ const Routing = () => {
         <Route path="/postdata" element={<PostData/>} / >
         <Route path="/getpost" element={<GetPost/>} / >
         <Route path="/signup" element={<Signup/>} / >
+        <Route path="/quiz" element={<Quiz/>} / >
         <Route path="/textform" element={<TextForm title="Enter the text to analyze" />} />
       </Routes>
     </>
