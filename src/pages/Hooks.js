@@ -31,7 +31,6 @@ const Hooks = () => {
     }
   };
   const [state, dispatch] = useReducer(reducer, { count: 0, showText: true });
-  // useref
   const inputRef = useRef(null);
   const valueChanged = () => {
     inputRef.current.focus();
@@ -78,5 +77,4 @@ const Hooks = () => {
     </>
   );
 };
-
 export default Hooks;
